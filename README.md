@@ -1,7 +1,5 @@
 # Redux Store
 
-## Assignment
-Refactor code so that it uses Redux instead of global state.
 
 ## User Story
 
@@ -29,5 +27,5 @@ THEN I find that the app uses Redux instead of the Context API
 
 
 ## Live App
-![Redux Store Screenshot](./Screenshot.jpeg)
-[Deployed Link](https://secret-ravine-51475.herokuapp.com/)
+
+https://git.heroku.com/dry-harbor-62705.git
