@@ -1,0 +1,33 @@
+{
+  "name": "mern-shopping",
+  "version": "1.0.0",
+  "description": "## Assignment Refactor code so that it uses Redux instead of global state.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm i && cd ../server && npm run seed && cd ../client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "express": "^4.18.1",
+    "node": "^16.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osmana1993/Redux-Store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Osmana1993/Redux-Store/issues"
+  },
+  "homepage": "https://github.com/Osmana1993/Redux-Store#readme"
+}
